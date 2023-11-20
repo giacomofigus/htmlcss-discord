@@ -123,12 +123,9 @@ main .hero{
     align-items: center;
     height: 100vh;
 }
-
-.img-container{
-    background-color: var(--bgColorGreen);
-
-    width: 700px;
-    height: 500px
+ 
+.sections-flex img{
+    width: 800px;
 }
 
 .description-container{
@@ -137,24 +134,21 @@ main .hero{
     align-items: center;
     
 
-    background-color: var(--bgColorPurple);
+    
     width: 400px;
     height: 500px;
-    padding: 10px;
+    
 }
 
-.description-container div{
+.description-container h2{
     margin-bottom: 20px;
-    background-color: var(--bgColorGrey);
-    
-    width: 250px;
-    height: 200px;
+    font-size: 50px;
+    line-height: 65px;
 }
 
 .description-container p{
-    background-color: var(--bgColorGrey);
-    width: 250px;
-    height: 250px;
+   font-size: 20px;
+   margin-left: 10px;
 }
 
 
