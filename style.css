@@ -18,6 +18,10 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* Header Start */
 header{
     background-color: var(--bgColorGreen);
@@ -25,29 +29,28 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    
+    background-color: #3161E0;
 }
 
-header #logo{
-    background-color: var(--bgColorBlack);
-    width: 150px;
-    height: 50px;
-}
+
 
 nav ul{
     list-style-type: none;
 }
 
 nav ul li{
-    background-color: var(--bgColorPurple);
-
+    color:white;
     display: inline-block;
-    padding: 10px;
+    padding:  10px 30px;
+    ;
 }
 
-header button{
-    background-color: var(--bgColorYellow);
-    padding: 10px 30px;
+header a[href="#"]{
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-weight: 600;
 }
 
 
@@ -57,35 +60,29 @@ main .hero{
     justify-content: center;
     align-items: center;
     
-    background-color: var(--bgColorPurple);
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
     height: 90vh;
 }
 
 .hero .title-p-container{
     display: flex;
-    justify-content: space-between;
+    
     align-items: center;
     flex-direction: column;
     gap: 50px;
-
-    background-color: var(--bgColorRed);
-    width: 1000px;
-    height: 500px;
-    padding: 20px;
+    width: 40%;
 }
 
 .hero .title-p-container .title{
-    background-color: var(--bgColorYellow);
-
-    height: 80px;
-    width: 300px;
+    color: white;
+    font-size: 55px;
 }
 
 .hero .title-p-container p{
-    background-color: var(--bgColorGreen);
-
-    width: 500px;
-    height: 100px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
 }
 
 .hero .title-p-container .cta-container-flex{
@@ -95,10 +92,28 @@ main .hero{
     gap: 2em;
 }
 
-.hero .title-p-container .cta-container-flex button{
-    background-color: var(--bgColorYellow);
-    padding: 10px 30px;
+.hero .title-p-container .cta-container-flex button:first-child{
+    background-color: white;
+    color: #000000;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+}
 
+.hero .title-p-container .cta-container-flex button:first-child i{
+    margin-right: 10px;
+}
+
+.hero .title-p-container .cta-container-flex button:last-child{
+    background-color: #23272A;
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 /* First Section Start */
