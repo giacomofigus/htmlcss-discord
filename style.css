@@ -38,11 +38,10 @@ nav ul{
     list-style-type: none;
 }
 
-nav ul li{
+nav ul li{ 
     color:white;
     display: inline-block;
-    padding:  10px 30px;
-    ;
+    margin-inline: 30px;
 }
 
 header a[href="#"]{
@@ -171,39 +170,45 @@ main .hero{
     align-items: center;
     
     background-color: #F6F6F6;
-    gap: 50px;
-    height: 100vh;
-    padding-block: 50px;
+    gap: 60px;
+    padding-block: 200px;
 }
 
 .cta-section :nth-child(1){
-    background-color: var(--bgColorYellow);
-    width: 65%;
-    height: 80px;
+    font-size: 50px;
+    text-align: center;
 }
 
 .cta-section :nth-child(2){
-    background-color: var(--bgColorRed);
-    width: 50%;
-    height: 50px;
-    
+    font-size: 20px;
+    font-weight: 500;
+
+    text-align: center;
+    width: 60%;
 }
 
 .cta-section :nth-child(3){
-    background-color: var(--bgColorGreen);
-    width: 50%;
-    height: 800px;
+    width: 1200px;
 }
 
 .cta-section :nth-child(4){
-    background-color: var(--bgColorPurple);
-    width: 30%;
-    height: 60px;
+    text-align: center;
+    font-size: 30px;
 }
 
 .cta-section :nth-child(5){
-    background-color: var(--bgColorYellow);
-    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: #8EA1E1;
+    color: white;
+}
+
+.cta-section :nth-child(5) i{
+    font-size: 20px;
+    margin-right: 10px;
 }
 
 footer{
@@ -239,7 +244,6 @@ footer .contatti h2{
 
 footer .contatti ul{
     list-style-type: none;
-    
 }
 
 footer .contatti ul li{
@@ -249,6 +253,7 @@ footer .contatti ul li{
 footer .contatti ul li i{
     font-size: 20px;
     padding: 5px;
+    color: white;
 }
 
 /* Colonne */
@@ -262,7 +267,6 @@ footer .col{
 
 footer .col ul{
     list-style-type: none;
-    line-height: 160%;
 }
 
 footer .col ul h3{
@@ -271,5 +275,28 @@ footer .col ul h3{
 
 footer .col ul li{
     color: white;
-    
+}
+
+hr{
+    background-color:#7289DA;
+    border: none;
+    height: 1px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.last-section{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+    background-color: #23272A;
+    padding: 20px 15%;
+}
+
+.last-section a[href="#"]{
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #8EA1E1;
 }
