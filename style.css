@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root{
+    --bgColorGreen: #66E892;
+    --bgColorRed: #FC4C4C;
+    --bgColorYellow: #D6C73F;
+    --bgColorBlack: #000000;
+    --bgColorGrey: #D9D9D9;
+    --bgColorPurple: #404EED;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header Start */
+header{
+    background-color: var(--bgColorGreen);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    
+}
+
+header #logo{
+    background-color: var(--bgColorBlack);
+    width: 150px;
+    height: 50px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    background-color: var(--bgColorPurple);
+
+    display: inline-block;
+    padding: 10px;
+}
+
+header button{
+    background-color: var(--bgColorYellow);
+    padding: 10px 30px;
+}
+
+
+/* Hero Start */
+main .hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: var(--bgColorPurple);
+    height: 90vh;
+}
+
+.hero .title-p-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+
+    background-color: var(--bgColorRed);
+    width: 1000px;
+    height: 500px;
+    padding: 20px;
+}
+
+.hero .title-p-container .title{
+    background-color: var(--bgColorYellow);
+
+    height: 80px;
+    width: 300px;
+}
+
+.hero .title-p-container p{
+    background-color: var(--bgColorGreen);
+
+    width: 500px;
+    height: 100px;
+}
+
+.hero .title-p-container .cta-container-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.hero .title-p-container .cta-container-flex button{
+    background-color: var(--bgColorYellow);
+    padding: 10px 30px;
+
+}
+
+/* First Section Start */
+.sections-flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+
+.img-container{
+    background-color: var(--bgColorGreen);
+
+    width: 700px;
+    height: 500px
+}
+
+.description-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    background-color: var(--bgColorPurple);
+    width: 400px;
+    height: 500px;
+    padding: 10px;
+}
+
+.description-container div{
+    margin-bottom: 20px;
+    background-color: var(--bgColorGrey);
+    
+    width: 250px;
+    height: 200px;
+}
+
+.description-container p{
+    background-color: var(--bgColorGrey);
+    width: 250px;
+    height: 250px;
+}
+
+
+/* Second Section */
+.second-section{
+    display: flex;
+    flex-direction: row-reverse;
+    
+    background-color: #F6F6F6;
+}
+
+.second-section .description-container{
+    background-color: var(--bgColorPurple);
+    width: 500px;
+    height: 300px;
+}
+
+/* CTA Section start */
+.cta-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   
+    gap: 50px;
+    height: 100vh;
+}
+
+.cta-section :nth-child(1){
+    background-color: var(--bgColorYellow);
+    width: 65%;
+    height: 80px;
+}
+
+.cta-section :nth-child(2){
+    background-color: var(--bgColorRed);
+    width: 50%;
+    height: 50px;
+    
+}
+
+.cta-section :nth-child(3){
+    background-color: var(--bgColorGreen);
+    width: 50%;
+    height: 800px;
+}
+
+.cta-section :nth-child(4){
+    background-color: var(--bgColorPurple);
+    width: 30%;
+    height: 60px;
+}
+
+.cta-section :nth-child(5){
+    background-color: var(--bgColorYellow);
+    padding: 10px 30px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    height: 60vh;
+    background-color: #23272A;
+}
+
+/* Footer Contatti */
+footer .contatti{
+    display: flex;
+    flex-direction: column;
+    
+    gap:20px;
+    
+    color: white;
+    width: 200px;
+    height: 200px;
+}
+
+footer .contatti p{
+    background-color: var(--bgColorGrey);
+    width: 60%;
+    height: 20px;
+}
+
+footer .contatti h2{
+    color: #7289DA;
+}
+
+footer .contatti ul{
+    list-style-type: none;
+    
+}
+
+footer .contatti ul li{
+    display: inline-block;
+}
+
+footer .contatti ul li i{
+    font-size: 20px;
+    padding: 5px;
+}
+
+/* Colonne */
+footer .col{
+    display: flex;
+    flex-direction: row;
+    
+    
+    gap: 100px;
+}
+
+footer .col ul{
+    list-style-type: none;
+    line-height: 160%;
+}
+
+footer .col ul h3{
+    color: #7289DA;
+}
+
+footer .col ul li{
+    color: white;
+    
+}
