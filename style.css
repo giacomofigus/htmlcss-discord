@@ -132,12 +132,9 @@ main .hero{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 
-    
     width: 400px;
-    height: 500px;
-    
+    height: 500px; 
 }
 
 .description-container h2{
@@ -161,7 +158,7 @@ main .hero{
 }
 
 .second-section .description-container{
-    background-color: var(--bgColorPurple);
+    
     width: 500px;
     height: 300px;
 }
@@ -172,10 +169,11 @@ main .hero{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-   
+    
+    background-color: #F6F6F6;
     gap: 50px;
     height: 100vh;
+    padding-block: 50px;
 }
 
 .cta-section :nth-child(1){
